@@ -1,6 +1,6 @@
 Dramatis Personae
 
-  Chorus.
+  Chorus. 
 
 
   Escalus, Prince of Verona.
@@ -233,7 +233,7 @@ of Capulet.
 
   Mon. Thou villain Capulet!- Hold me not, let me go.
 
-  M. Wife. Thou shalt not stir one foot to seek a foe.
+  Wife. Thou shalt not stir one foot to seek a foe.
 
                 Enter Prince Escalus, with his Train.
 
@@ -277,7 +277,7 @@ of Capulet.
     Came more and more, and fought on part and part,
     Till the Prince came, who parted either part.
 
-  M. Wife. O, where is Romeo? Saw you him to-day?
+  Wife. O, where is Romeo? Saw you him to-day?
     Right glad I am he was not at this fray.
 
   Ben. Madam, an hour before the worshipp'd sun
