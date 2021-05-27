@@ -44,7 +44,7 @@ def count_lines_and_words(path_to_book):
             words_in_this_line = line.strip().split()
             for word in words_in_this_line:
                 # remove punctuation from the word
-                word = re.sub(r'\W+', '', word)
+                word = re.sub(r'\W+', '', word).lower()
 
                 word_counts_by_speaker[current_speaker][word] += 1
 
