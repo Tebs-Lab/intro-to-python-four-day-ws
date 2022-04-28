@@ -16,19 +16,28 @@ Here are a few suggestions for possible exploration during this time:
     * Modeling the board as some kind of data.
     * Trying to design an AI that plays well.
     * Working with user input.
+    * Stretch goal: make a graphical interface using something like TKinter, [here's a tutorial](https://www.pythonpool.com/tic-tac-toe-python/)!
 
-2. Connect Python to a SQL database. Best parts:
+2. Connect Python to a SQL database.
     * Super realistic.
     * Get real data from your real database, then use Python/Pandas/Jupyter to manipulate and explore that data.
+    * Create an ETL job, from SQL -> CSV or vice versa, or make a derrived table in an ETL job that starts and ends with a SQL.
+    * Explore ways to automate that process using something like [cron](https://opensource.com/article/17/11/how-use-cron-linux) for Linux/Unix systems or [Task Scheduler](https://www.windowscentral.com/how-create-automated-task-using-task-scheduler-windows-10) on Windows.
+    * Use SQL Alchemy! Here is a [tutorial](https://zetcode.com/db/sqlalchemy/intro/) and some [sample starter code](https://github.com/tebba-von-mathenstein/python-and-sql-series/blob/main/examples/10_sql_alchemy_basics.py)
 
-3. Solve puzzles on CodeWars. Best parts:
+3. Solve puzzles on CodeWars.
     * Fun and bitesized challenges that help you practice the basics.
     * Challenges that get harder slowly.
     * Quick feedback loop, the examples are well tested so you can more easily identify what is wrong with your code.
 
-4. Make a web scraper.
+4. Make a web scraper. 
     * Super realistic, a LOT of data for real ML projects is collected this way.
     * More practice working with text data... love it or hate it, processing text is very common!
+    * Here's [a tutorial](https://www.dataquest.io/blog/web-scraping-python-using-beautiful-soup/) using Beautiful Soup and the requests library!
+
+5. Do another EDA, perhaps even more in-depth this time.
+    * Interesting datasets are available on [Kaggle](https://www.kaggle.com/) and this [Awesome Public Datasets Github repo](https://github.com/awesomedata/awesome-public-datasets).
+    * Again, super realistic, and a chance to practice what we've covered rather than explore a new topic.
 
 ## Additionally:
 
