@@ -1,5 +1,5 @@
 # What does this function do?
-# How should we intepret its output (the variable return_value)
+# How should we interpret its output (the variable return_value)
 def mystery_function(input_string):
     return_value = {}
 
