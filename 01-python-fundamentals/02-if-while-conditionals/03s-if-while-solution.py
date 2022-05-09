@@ -22,7 +22,7 @@ while True:
         print("Congratulations, you guessed it!")
         break
     elif number_of_guesses == 10:
-        print("Unfortunately, you have run out of guesses. The number was {secret_number}.")
+        print(f"Unfortunately, you have run out of guesses. The number was {secret_number}.")
         break
     elif current_guess < secret_number:
         print(f'Your guess ({current_guess}) is smaller than the number I chose.')
