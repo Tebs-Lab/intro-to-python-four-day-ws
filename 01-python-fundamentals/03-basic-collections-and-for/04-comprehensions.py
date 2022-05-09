@@ -10,7 +10,7 @@ ten_squares = [n*n for n in range(1, 11)]
 print(ten_squares)
 
 # Comprehensions are often used to filter existing lists.
-# This one filters or list of evens down to numbers that are also divisible by 3.
+# This one filters our list of evens down to numbers that are also divisible by 3.
 even_and_div_3 = [even_number for even_number in evens if even_number % 3 == 0]
 print(even_and_div_3)
 
