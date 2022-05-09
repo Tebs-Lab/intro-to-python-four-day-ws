@@ -1,4 +1,4 @@
-# Exercise: Using Complex Data and Control Flow
+# Exercise: Using Simple Data Structures and Control Flow
 
 This exercise is meant to help you practice:
 
@@ -10,7 +10,7 @@ This exercise is meant to help you practice:
 
 You will be writing scripts that utilizes lists, dictionaries, loops, and if statements. As you are writing the code, periodically execute the code in your terminal and print your variables to check your work and see their values.
 
-## Part 1: Lists, Loops, and aggregating
+## Part 1: Lists, Loops, and Aggregating
 
 * Create a list with 5 numbers in it and assign it to a variable.
 * Create a variable called `list_sum` and assign it the value `0`
@@ -56,3 +56,25 @@ Pro-tip, use the following code to "pretty print" the dictionary instead of the 
 from pprint import pprint
 pprint(dictionary_challenge)
 ```
+
+## Part 3: Comprehensions
+
+The following code creates a short list of words...
+
+```python
+words = [
+    'apple',
+    'soda',
+    'car',
+    'intrepid',
+    'water',
+    'buffalo',
+    'tepid',
+    'enemy',
+    'salvo'
+]
+```
+
+* Use a list comprehension to generate a list that has the same words, but in all capital letters.
+* Use a list comprehension to generate a list that only has the words which start with a vowel.
+* Use a dictionary comprehension to map the words (as keys) to the length of the word (as values)

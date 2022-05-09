@@ -27,6 +27,17 @@ print(x, y, z)
 q = add(x, y)
 print(q)
 
+# In Python, you can also specify "keyword arguments" which 
+# have a name and a default value. All positional arguments 
+# must be specified before any keyword arguments. Here, c is a 
+# keyword argument.
+def uses_keywords(a, b, c = 10):
+    return a + b + c
+
+print(uses_keywords(1, 2))      # If unspecified, c uses the default value of 10
+print(uses_keywords(1, 2, 3))   # keyword args can be specified positionally, but this is not preferred. 
+print(uses_keywords(1, 2, c=3)) # This is the preferred syntax for calling a function with keyword arguments.
+
 # Micro-Exercise: create a function called fancy_math that
 # accepts 3 parameters, uses math operators to combine them
 # and returns the result of that math. The result should also
