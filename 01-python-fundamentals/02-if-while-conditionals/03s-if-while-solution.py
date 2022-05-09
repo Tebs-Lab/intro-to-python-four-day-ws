@@ -2,9 +2,10 @@ import random
 
 secret_number = random.randint(1, 100)
 number_of_guesses = 0
+max_number_of_guesses = 10
 
 while True:
-    print(f'\nYou have {10 - number_of_guesses} guesses remaining.')
+    print(f'\nYou have {max_number_of_guesses - number_of_guesses} guesses remaining.')
     current_guess = input("Guess a number: ")
 
     # Check if the value can be coerced to an integer.
@@ -21,7 +22,7 @@ while True:
     if current_guess == secret_number:
         print("Congratulations, you guessed it!")
         break
-    elif number_of_guesses == 10:
+    elif number_of_guesses == max_number_of_guesses:
         print(f"Unfortunately, you have run out of guesses. The number was {secret_number}.")
         break
     elif current_guess < secret_number:
