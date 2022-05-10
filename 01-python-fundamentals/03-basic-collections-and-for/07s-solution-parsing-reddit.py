@@ -33,8 +33,9 @@ posts_by_user = {}
 sum_of_upvote_ratio = 0
 
 # Iterate over the posts, extract the data, print
-for post in posts:
+for idx, post in enumerate(posts):
     post_data = post['data']
+
     title = post_data['title']
     username = post_data['author']
     upvote_ratio = post_data['upvote_ratio']
@@ -49,7 +50,7 @@ for post in posts:
     
     sum_of_upvote_ratio += upvote_ratio
 
-    print('================')
+    print(f'======={idx}=========')
     print(f'Title: {title}\nUser: {username}\nUpvote Ratio: {upvote_ratio}\nURL: {post_url}')
     print()
 

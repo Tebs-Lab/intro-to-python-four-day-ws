@@ -22,20 +22,20 @@ function_one(20)
 
 # Note that local variables do not leak to global scope.
 # These two lines raise errors:
-print(y)
-print(z)
+# print(y)
+# print(z)
 
 # Variable shadowing occurs when there are variables in different
 # scopes with the same name. Python will use the local version of
 # the variable in such cases.
-x = 'I am a global variable'
+string = 'I am a global variable'
 def fun2():
-    x = 'I am a local variable'
-    print(x) # If no keyword is used, python uses the most local variable
+    string = 'I am a local variable'
+    print(string) # If no keyword is used, python uses the most local variable
 
-# Note that x has not changed after calling the function
+# Note that string has not changed after calling the function
 fun2()
-print(x)
+print(string)
 
 
 # Finally, if you want to update a global variable's
@@ -49,3 +49,4 @@ def fun3():
     x += 10
 
 fun3()
+print(x)
