@@ -8,7 +8,7 @@ This exercise is meant to help you:
 
 ## The Exercise
 
-The vast majority of real world programming applications rely on some kind of well structured data to perform their job. In this exercise, you'll fetch data about the current front page of the `/r/awww` subreddit (which is a forum dedicated to pictures of cute animals) and parse through that data programmatically to extract the following information for the top 10 posts:
+The vast majority of real world programming applications rely on some kind of well structured data to perform their job. In this exercise, you'll fetch data about the current front page of the `/r/awww` subreddit (which is a forum dedicated to pictures of cute animals) and parse through that data programmatically to extract the following information for the top posts:
 
 1. The title of the post.
 2. The username of the poster.
@@ -28,7 +28,7 @@ Reddit provides this data in a textual format called JavaScript Object Format (J
 
 Reddit's JSON format is "well structured" which means it always follows a consistent set of rules. Many of these rules are documented on [Reddit's API documentation](https://www.reddit.com/dev/api) with additional information about the JSON structure on this [Reddit Wiki page](https://github.com/reddit-archive/reddit/wiki/JSON).
 
-This data can be fetched from any subreddit by adding .json to the end of the usual URL. For example, for the current top 20 posts on /r/awww in json simply go to [https://www.reddit.com/r/aww.json](https://www.reddit.com/r/aww.json).
+This data can be fetched from any subreddit by adding .json to the end of the usual URL. For example, for the current top posts on /r/awww in json simply go to [https://www.reddit.com/r/aww.json](https://www.reddit.com/r/aww.json).
 
 It can be extremely helpful to look at this data in program designed to navigate JSON. Firefox has an excellent JSON navigator built in, so if you open the JSON URL in Firefox you'll see something like this:
 
