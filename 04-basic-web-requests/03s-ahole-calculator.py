@@ -60,7 +60,7 @@ NTA: {NTA}
 ESH: {ESH}
 NAH: {NAH}
 """
-print('f======Top {n_posts} Daily AHole Judgements====')
+print(f'======Top {n_posts} Daily AHole Judgements====')
 for url, votes in post_to_votes.items():
     print(ahole_format_string.format(url=url, **votes))
 
