@@ -13,7 +13,7 @@ all_listings_response = requests.get(
 # Extract today's top n posts (set to 3 here to reduce rate limiting):
 n_posts = 3
 top_n_post_urls = []
-for post in all_listings_response.json()['data']['children'][:3]:
+for post in all_listings_response.json()['data']['children'][:n_posts]:
     top_n_post_urls.append(post['data']['url'])
 
 post_to_votes = {}
