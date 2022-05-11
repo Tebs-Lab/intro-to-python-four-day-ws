@@ -50,7 +50,7 @@ class SimpleLinearRegression:
         return (self.slope * x) + self.y_intercept
 
 
-# When we want to use a class, we envoke the constructor using the 
+# When we want to use a class, we invoke the constructor using the 
 # name of the class.
 linear_model = SimpleLinearRegression()
 
