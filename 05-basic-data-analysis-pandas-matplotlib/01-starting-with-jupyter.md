@@ -1,5 +1,7 @@
 # Getting Started With Jupyter
 
+> Note: this is outdated, but we haven't found the time to update it. Instead see `0x-supplemental-venv-dependency-management.md` file in the main folder of this repo. It has instructions for using Python's built in `venv` virtual environment manager. You can still use `pipenv` as described here if you wish, but at Teb's Lab we now prefer `venv`. 
+
 Getting started with Jupyter should be easy if you've already been using `pipenv`, or if you're comfortable installing Jupyter globally using `pip`. If you're not familiar with `pipenv` go to the main readme for this repo and read the installation instructions there.
 
 First, activate a `pipenv` environment shell from any directory in this repo:
