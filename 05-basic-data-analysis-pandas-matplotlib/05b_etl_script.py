@@ -1,9 +1,11 @@
 import pandas as pd
+import pathlib
 
 # Using a function called "main" as your code's "entry point"
 # is a conventional best practice.
 def main():
-    path_to_ny_sales = 'nyc-property-data/nyc-rolling-sales.csv'
+    this_dir = pathlib.Path(__file__).parent
+    path_to_ny_sales = this_dir / 'nyc-property-data/nyc-rolling-sales.csv'
     sales_df = pd.read_csv(path_to_ny_sales)
 
     # Map the boroughs
@@ -47,7 +49,7 @@ def main():
     sales_df['BUILDING TYPE'] = sales_df.apply(check_building_type, axis=1) 
 
     # Write
-    sales_df.to_csv('nyc-property-data/transformed_nyc_housing.csv', index=False)
+    sales_df.to_csv(this_dir / 'nyc-property-data/transformed_nyc_housing.csv', index=False)
 
 
 # It's better to define functions at the top level, rather than as
