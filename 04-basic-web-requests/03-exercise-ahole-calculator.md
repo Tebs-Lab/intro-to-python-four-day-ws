@@ -32,6 +32,10 @@ Your program should be able to do the following:
 
 **Note that** by default Reddit only sends the full text of the first ~65 comments, and provides information that would allow you to fetch the remaining comments if you wish. Consider the exercise complete if you can parse just the comments returned by default. If you'd like, you can try to fetch ALL the comments and parse them as well, but you should consider that to be bonus work.
 
+## Bonus, Make It Harder:
+
+Save each individual judgement vote summary to a file. Devise a scheme for naming the files and ensure a specific folder exists (or create one) to hold each new file.
+
 ### Helpful Resources
 
 Reddit provides this data in a textual format called JavaScript Object Format (JSON). This format is ubiquitous on the web for a variety of reasons. Although we use built in tools to parse this JSON formatted data into a deeply nested Python dictionary, you may still want to read this [overview of using the JSON format in Python](https://realpython.com/python-json/).
