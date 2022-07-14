@@ -15,7 +15,7 @@ You will be writing a python script that create classes, then uses those classes
 > Hint: Consider using the `sorted` built in function.
 > Hint: You can determine if a list has an even number of items with `is_even = len(numbers) % 2 == 0`. See: [The modulo operator](https://www.freecodecamp.org/news/the-python-modulo-operator-what-does-the-symbol-mean-in-python-solved/)
 
-## Part 2: Classes
+## Classes
 
 Now we're going to take the two functions you created and turn them into a class! Consider this incomplete class stub:
 
